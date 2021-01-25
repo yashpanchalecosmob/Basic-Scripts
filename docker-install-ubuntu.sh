@@ -8,7 +8,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 
 sudo apt-get update && sudo apt-get install -y containerd.io=1.2.13-2 docker-ce=5:19.03.11~3-0~ubuntu-$(lsb_release -cs) docker-ce-cli=5:19.03.11~3-0~ubuntu-$(lsb_release -cs)
 
-sudo mkdir /etc/docker
+sudo mkdir -p /etc/docker
 
 cat <<EOF | sudo tee /etc/docker/daemon.json
 {
