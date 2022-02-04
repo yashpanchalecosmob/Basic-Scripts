@@ -28,6 +28,6 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 sudo systemctl enable docker
 
-wget https://github.com/docker/compose/releases/download/1.27.4/docker-compose-Linux-x86_64
-mv docker-compose-Linux-x86_64 /usr/local/docker-compose
-chmod +x /usr/local/docker-compose
+#wget https://github.com/docker/compose/releases/download/1.27.4/docker-compose-Linux-x86_64
+#mv docker-compose-Linux-x86_64 /usr/local/docker-compose
+#chmod +x /usr/local/docker-compose
